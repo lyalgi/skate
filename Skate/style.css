@@ -1,0 +1,152 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #212121;
+}
+
+header, footer {
+    background: #8B05FB;
+    margin-top: 30px;
+    width: 100%;
+}
+
+nav {
+    max-width: 660px;
+    margin: auto;
+    background: #8B05FB;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.logo {
+  float: left;
+  background: #8B05FB;
+  margin-left: 25px;
+}
+
+.logo img {
+  margin: 0;
+  height: 70px;
+  text-align: center;
+  background: #8B05FB;
+}
+
+ul {
+  margin: 0;
+  margin-right: 25px;
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  text-align:center;
+  background: #8B05FB;
+}
+
+header a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  background: #8B05FB;
+}
+
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  background: #8B05FB;
+}
+
+footer img{
+  background: #8B05FB;
+}
+
+li a {
+  color: #fff;
+  text-transform: uppercase;
+  background: #8B05FB;
+}
+li {
+  display: inline-block;
+  margin-left: 25px;
+  transition: .5s linear;
+  background: #3b393d;
+}
+li a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  background: #212121;
+  transition: all 0.5s linear;  
+}
+li a:hover:after{
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  background: url(img/mainpg.jpg);
+  background-size: cover;
+  width: 1300px;
+  height: 750px;
+  margin: 50px 100px;
+  float: left;
+}
+
+.text p{
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  font-size: 48pt;
+}
+
+.gallery  table{
+  width: 1300px;
+  margin: 0px 90px 100px 90px;
+  background: #212121;
+}
+
+.gallery td {
+  vertical-align: top;
+}
+
+.img2 {
+  padding: 50px 0px 0px 0px;
+}
+
+.img3 {
+  padding: 50px;
+}
+
+.img4 {
+  padding: 50px 0px 50px 0px;
+}
+
+.gallery p{
+  color: #fff;
+  vertical-align: text-top;
+  padding: 0px 0px 30px 50px;
+  font-size: 16pt;
+}
+
+.contact table {
+  color: #fff;
+  margin: 0px 100px 0px 100px;
+  text-align: center;
+  width: 1140px;
+}
+
+.cont {
+  font-size: 24pt;
+}
+
+.par{
+  font-size: 14pt;
+  color: #fff;
+}
